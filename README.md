@@ -14,7 +14,7 @@ public class InvitationCard extends JFrame {
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
                 g.setFont(new Font("Serif", Font.BOLD, 24));
-                g.setColor(Color.BLUE);
+                g.setColor(Color.RED);
                 g.drawString("You're Invited!", 100, 50);
 
                 g.setFont(new Font("Serif", Font.PLAIN, 18));
